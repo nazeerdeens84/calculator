@@ -11,6 +11,6 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Towards-AzurePortal'
-    appType: 'webAppLinux'
+    appType: 'webApp'
     appName: 'vertexCalculator-app'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
